@@ -1,0 +1,128 @@
+{
+  "settings": {
+    "method": "tier_scaled",
+    "scale_days": 28,
+    "scale_floor_units": 1.0,
+    "first_origins": 28,
+    "gap_origins": 8,
+    "second_origins": 20,
+    "selection_fit_origins": 14,
+    "selection_score_origins": 6
+  },
+  "first_validation_selection": [
+    {
+      "fold": 0,
+      "method": "baseline",
+      "mean_pinball_units": 0.681258713473492,
+      "cycles": 8622,
+      "selected": false
+    },
+    {
+      "fold": 0,
+      "method": "moving_average",
+      "mean_pinball_units": 0.728833722376942,
+      "cycles": 8622,
+      "selected": false
+    },
+    {
+      "fold": 0,
+      "method": "lightgbm",
+      "mean_pinball_units": 0.5806974528604882,
+      "cycles": 8622,
+      "selected": true
+    },
+    {
+      "fold": 1,
+      "method": "baseline",
+      "mean_pinball_units": 0.3890107106223643,
+      "cycles": 8622,
+      "selected": false
+    },
+    {
+      "fold": 1,
+      "method": "moving_average",
+      "mean_pinball_units": 0.43606653704544307,
+      "cycles": 8622,
+      "selected": false
+    },
+    {
+      "fold": 1,
+      "method": "lightgbm",
+      "mean_pinball_units": 0.3303086854461245,
+      "cycles": 8622,
+      "selected": true
+    },
+    {
+      "fold": 2,
+      "method": "baseline",
+      "mean_pinball_units": 0.44870878905220396,
+      "cycles": 8622,
+      "selected": false
+    },
+    {
+      "fold": 2,
+      "method": "moving_average",
+      "mean_pinball_units": 0.4877418202442803,
+      "cycles": 8622,
+      "selected": false
+    },
+    {
+      "fold": 2,
+      "method": "lightgbm",
+      "mean_pinball_units": 0.40239383572875465,
+      "cycles": 8622,
+      "selected": true
+    },
+    {
+      "fold": 3,
+      "method": "baseline",
+      "mean_pinball_units": 0.8211192802218481,
+      "cycles": 8622,
+      "selected": false
+    },
+    {
+      "fold": 3,
+      "method": "moving_average",
+      "mean_pinball_units": 0.8229838361072174,
+      "cycles": 8622,
+      "selected": false
+    },
+    {
+      "fold": 3,
+      "method": "lightgbm",
+      "mean_pinball_units": 0.5819836593165593,
+      "cycles": 8622,
+      "selected": true
+    },
+    {
+      "fold": 4,
+      "method": "baseline",
+      "mean_pinball_units": 0.35668354053129075,
+      "cycles": 8622,
+      "selected": false
+    },
+    {
+      "fold": 4,
+      "method": "moving_average",
+      "mean_pinball_units": 0.38728099667128413,
+      "cycles": 8622,
+      "selected": false
+    },
+    {
+      "fold": 4,
+      "method": "lightgbm",
+      "mean_pinball_units": 0.3040597238663231,
+      "cycles": 8622,
+      "selected": true
+    }
+  ],
+  "second_validation_checked_before_test": true,
+  "refit_on_second_split": false,
+  "planned_test_simulation_calls": 9,
+  "forecast_source_sha256": {
+    "calendar.csv": "d12b5914ef03e66649adf5dd9e996e6602251c22b7a6af8f1f7e3aa12f8860f5",
+    "sales_train_evaluation.csv": "4b4a47c44c38380d2a9168216fea8c9ff2f31b1ddb772f8a0995952a038b8aa0",
+    "sell_prices.csv": "9da3ad1f8b8ccacdbdc70612191dd375ec24a4ac6625c24b75b3bc60b0bed2ef"
+  },
+  "completed_test_simulation_calls": 9
+}

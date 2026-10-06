@@ -1,0 +1,54 @@
+{
+  "store": "CA_1",
+  "category": "FOODS",
+  "folds": 4,
+  "fold_days": 28,
+  "train_days": 730,
+  "calibration_days": 56,
+  "warmup_days": 28,
+  "trees": 250,
+  "seed": 42,
+  "forecast_horizons": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "stockout_check": {
+    "minimum_zero_run": 7,
+    "history_days": 90,
+    "minimum_mean_sales": 1.0,
+    "minimum_positive_share": 0.8
+  },
+  "business": {
+    "lead_time_days": 2,
+    "review_period_days": 7,
+    "gross_margin": 0.3,
+    "shortage_penalty_share": 0.2,
+    "annual_holding_rate": 0.25
+  },
+  "cost_grid": {
+    "shortage_penalties": [
+      0.0,
+      0.2,
+      0.6
+    ],
+    "annual_holding_rates": [
+      0.15,
+      0.25,
+      0.4
+    ]
+  },
+  "daily_sensitivity": {
+    "lead_time_days": 0,
+    "review_period_days": 1,
+    "purchase_share": 0.6,
+    "salvage_share": 0.2,
+    "shortage_penalty_share": 0.2
+  }
+}
