@@ -2,6 +2,8 @@
 
 [English](README.md) | **Italiano**
 
+App online: [Demand forecast and order quantity](https://retail-demand-planner.streamlit.app/)
+
 Un negozio perde margine con scaffali vuoti e sostiene costi di giacenza con scorte eccessive. Valuto CA_1 / FOODS, 1.437 articoli, quattro finestre cronologiche e riordino settimanale con consegna in due giorni.
 
 > **Risultato chiave:** con scorta scalata per fascia e stimata solo sulla validazione, **LightGBM ha il costo simulato più basso: $18.724,81**. Risparmia **$4.903,41 (20,75%) rispetto al naive stagionale** e **$5.227,38 (21,82%) rispetto a MA28**. Le previsioni sono identiche.

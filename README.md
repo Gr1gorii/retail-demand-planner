@@ -2,6 +2,8 @@
 
 **English** | [Italiano](README.it.md)
 
+Live app: [Demand forecast and order quantity](https://retail-demand-planner.streamlit.app/)
+
 A store loses margin on empty shelves and pays to carry excess stock. I test CA_1 / FOODS, 1,437 items, four chronological windows and a weekly order policy with a two-day lead time.
 
 > **Key result:** with validation-only, tier-scaled safety stock, **LightGBM has the lowest simulated cost: $18,724.81**. It saves **$4,903.41 (20.75%) vs seasonal naive** and **$5,227.38 (21.82%) vs MA28**. Forecasts are unchanged.
